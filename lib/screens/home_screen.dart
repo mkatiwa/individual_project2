@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Countries  App'),
+        title: const Text('Countries App'),
       ),
       body: Column(
         children: [
