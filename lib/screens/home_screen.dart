@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Countries App'),
+        title: const Text('Countries  App'),
       ),
       body: Column(
         children: [
@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: TextField(
               controller: _searchController,
               decoration: const InputDecoration(
-                hintText: 'Search by country name',
+                hintText: 'Search by Country name',
                 border: OutlineInputBorder(),
                 prefixIcon: Icon(Icons.search),
               ),
