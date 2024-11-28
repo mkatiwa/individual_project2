@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: TextField(
               controller: _searchController,
               decoration: const InputDecoration(
-                hintText: 'Search by Country Name',
+                hintText: 'Search By Country Name',
                 border: OutlineInputBorder(),
                 prefixIcon: Icon(Icons.search),
               ),
